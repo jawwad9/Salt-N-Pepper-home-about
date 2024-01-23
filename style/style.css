@@ -1,0 +1,113 @@
+/* color variable */
+
+:root{
+    --red:#f42625;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+body{
+    background: var(--black);
+}
+
+/* navbar styling */
+#navbar-items{
+    gap: 30px;
+}
+#navbar{
+    padding: 10px 70px;
+}
+#main-logo{
+    width: 165px;
+}
+.nav-link{
+    text-decoration: none;
+}
+#franchise{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#order-online{
+    background-color: var(--red);
+    border: 0px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#red{
+    color: var(--red);
+}
+#btn-icon{
+    padding: 5px 7px; 
+}
+
+
+
+.children-img{
+    gap: 30px;
+}
+.padding{
+    padding: 0px 10px;
+}
+.city {
+    letter-spacing: 15px;
+    color: var(--red);
+}
+.bet-size{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.soon{
+    letter-spacing: 5px;
+    color: var(--red);
+}
+.mar-l{
+    margin-left: 30px;
+}
+.mar-r{
+    margin-right: 30px;
+}
+
+.img-320{
+    width: 320px;
+}
+.img-380{
+    width: 380px;
+}
+.img-400{
+    width: 400px;
+}
+.img-700{
+    width: 700px;
+}
+.img-20{
+    width: 20px;
+}
+.width{
+    width: 100%;
+}
+.bg-div{
+    background-color: rgb(143, 130, 130);
+    width: 300px;
+}
+.text-size{
+    size: 10px;
+}
+
+/* navber  footer styling */
+
+#logo-footer{
+    width: 165px;
+}
+#navber-footer{
+    padding: 10px 70px;
+}
+.img-100{
+    width: 100px;
+}
+.fot-gap{
+    gap: 110px;
+}
